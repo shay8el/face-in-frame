@@ -5,7 +5,7 @@ import Fab from "@material-ui/core/Fab";
 
 export const ResetButton = ({isActive, onReset}) => {
     return (
-        <Fab disabled={isActive} aria-label="delete" onClick={onReset} size="small" style={{margin: 'auto'}}>
+        <Fab disabled={isActive} aria-label="delete" onClick={onReset} size="small">
             <DeleteIcon/>
         </Fab>
     );
